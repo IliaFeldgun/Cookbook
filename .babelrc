@@ -1,12 +1,20 @@
 {
-  "presets": [["next/babel"]],
+  "presets": [
+    [
+      "next/babel"
+    ]
+  ],
   "plugins": [
     [
       "module-resolver",
       {
-        "root": ["./"],
+        "root": [
+          "./"
+        ],
         "alias": {
-          "@components": "./components"
+          "@components": "./components",
+          "@models": "./models",
+          "@logic": "./logic"
         }
       }
     ]
